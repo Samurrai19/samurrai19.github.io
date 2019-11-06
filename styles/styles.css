@@ -1,0 +1,56 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.main-box 
+{
+	max-width: 950px;
+	position: absolute;	
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+ 	font-size:80px;
+}
+.bg-image {
+	height: 100vh;
+	background-image: url(../application/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#particles-js {
+	position: fixed;
+	top: 0
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.awe-icons a i {
+ 	color: #000;
+}
+.awe-icons .icon-vk i:hover {
+	transition: 0.15s;
+	color: #4A76A8;
+}
+.awe-icons .icon-inst i:hover {
+	transition: 0.15s;
+	color: #D93E7F;
+}
+.main-logo img {
+	width: 250px;
+	height: 250px;
+}
+
+
+
+
+
+
